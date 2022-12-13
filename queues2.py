@@ -10,3 +10,5 @@ class PriorityQueue:
 
     def dequeue(self):
         return heappop(self._elements)
+
+from queues2 import PriorityQueue
