@@ -7,3 +7,5 @@ heappush(fruits, "banana")
 
 print(fruits)
 
+from heapq import heappop
+
