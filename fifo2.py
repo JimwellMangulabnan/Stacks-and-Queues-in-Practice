@@ -7,3 +7,4 @@ for element in fifo:
     print(element)
 
 
+print(len(fifo))
