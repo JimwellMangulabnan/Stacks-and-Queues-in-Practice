@@ -1,10 +1,17 @@
-from queues import Queue
+from queues3 import Stack
 
-fifo = Queue("1st", "2nd", "3rd")
-print(len(fifo))
-
-for element in fifo:
+lifo = Stack("1st", "2nd", "3rd")
+for element in lifo:
     print(element)
 
+lifo = []
 
-print(len(fifo))
+lifo.append("1st")
+lifo.append("2nd")
+lifo.append("3rd")
+
+print(lifo.pop())
+
+print(lifo.pop())
+
+print(lifo.pop())
