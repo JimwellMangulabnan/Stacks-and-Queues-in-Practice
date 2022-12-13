@@ -9,3 +9,5 @@ print(fruits)
 
 from heapq import heappop
 
+heappop(fruits)
+
