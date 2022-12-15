@@ -1,3 +1,8 @@
+print("\n\t*********  PROGRAMMED BY  ********")
+print("\t***** JIMWELL L. MANGULABNAN *****")
+print("\t********** BSCOE 2-2 *************")
+print()
+
 from queues6 import PriorityQueue
 from dataclasses import dataclass
 
@@ -22,5 +27,6 @@ messages.enqueue_with_priority(CRITICAL, "Brake pedal depressed")
 messages.enqueue_with_priority(CRITICAL, wipers)
 messages.enqueue_with_priority(IMPORTANT, hazard_lights)
 
-
+print()
 print(messages.dequeue())
+print()
