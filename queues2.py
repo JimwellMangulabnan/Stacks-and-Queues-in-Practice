@@ -1,3 +1,7 @@
+print("\n\t*********  PROGRAMMED BY  ********")
+print("\t***** JIMWELL L. MANGULABNAN *****")
+print("\t********** BSCOE 2-2 *************")
+print()
 from collections import deque
 
 class Queue:
